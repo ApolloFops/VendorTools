@@ -23,7 +23,7 @@ This Action calls a repository dispatch event on the provided repository and is 
 
 ```yml
 - name: Trigger update
-  uses: CoffeeCoder1/VendorTools/.github/actions/trigger-maven-update@2025.0.3
+  uses: ApolloFops/VendorTools/.github/actions/trigger-maven-update@2025.0.3
   with:
     # The GitHub token used to authenticate with the GitHub API. Must have write access to the repository that you are calling.
     github-token: # Required

@@ -22,7 +22,7 @@ This Action downloads the build output artifacts caught by the provided glob pat
 ## Sample usage
 
 ```yml
-- uses: CoffeeCoder1/VendorTools/.github/actions/publish@2025.0.3
+- uses: ApolloFops/VendorTools/.github/actions/publish@2025.0.3
   with:
     # A glob pattern to the artifacts that should be downloaded.
     artifact-pattern: # Defaults to build-outputs-*

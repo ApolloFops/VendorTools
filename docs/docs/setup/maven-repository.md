@@ -31,7 +31,7 @@ Once you've created it, generate a private key and save that to an [organization
 
 ## Repository setup
 
-Now, you'll need to create a Git repository to contain the repo. Create a new repository on GitHub using the [VendorTools Maven template](https://github.com/CoffeeCoder1/VendorTools-maven-template), and [set up Pages to deploy from GitHub Actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow).
+Now, you'll need to create a Git repository to contain the repo. Create a new repository on GitHub using the [VendorTools Maven template](https://github.com/ApolloFops/VendorTools-maven-template), and [set up Pages to deploy from GitHub Actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow).
 
 ### Gradle setup
 
@@ -65,7 +65,7 @@ on: push
 jobs:
   # Builds the library and uploads the outputs as an artifact
   build-java:
-    uses: CoffeeCoder1/VendorTools/.github/workflows/build-java.yml@2025.0.3
+    uses: ApolloFops/VendorTools/.github/workflows/build-java.yml@2025.0.3
 
   # Triggers the update workflow on the Maven repo
   update-maven:
@@ -86,7 +86,7 @@ jobs:
           owner: ${{ github.repository_owner }}
 
       - name: Trigger update
-        uses: CoffeeCoder1/VendorTools/.github/actions/trigger-maven-update@2025.0.3
+        uses: ApolloFops/VendorTools/.github/actions/trigger-maven-update@2025.0.3
         with:
           github-token: ${{ steps.app-token.outputs.token }}
           repository-name: ${{ github.repository_owner }}/maven-repo

@@ -24,7 +24,7 @@ This workflow builds the library for Java and uploads the outputs as an artifact
 ```yml
 jobs:
   build-java:
-    uses: CoffeeCoder1/VendorTools/.github/workflows/build-java.yml@2025.0.3
+    uses: ApolloFops/VendorTools/.github/workflows/build-java.yml@2025.0.3
     inputs:
       # This input is used to specify what version to release to the Gradle plugin.
       release-version: # Defaults to the ref name.

@@ -24,7 +24,7 @@ This workflow builds the library's Javadoc and uploads the outputs as an artifac
 ```yml
 jobs:
   build-javadoc:
-    uses: CoffeeCoder1/VendorTools/.github/workflows/build-javadoc.yml@2025.0.3
+    uses: ApolloFops/VendorTools/.github/workflows/build-javadoc.yml@2025.0.3
     inputs:
       # This input is used to specify what version to release to the Gradle plugin.
       release-version: # Defaults to the ref name.
