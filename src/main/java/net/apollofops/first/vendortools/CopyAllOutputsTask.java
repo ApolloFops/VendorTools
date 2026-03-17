@@ -30,7 +30,7 @@ public abstract class CopyAllOutputsTask extends DefaultTask {
 	 * Creates a new CopyAllOutputsTask.
 	 *
 	 * @param objects
-	 *                ObjectFactory used to create properties.
+	 *            ObjectFactory used to create properties.
 	 */
 	@Inject
 	public CopyAllOutputsTask(ObjectFactory objects) {
@@ -61,10 +61,11 @@ public abstract class CopyAllOutputsTask extends DefaultTask {
 	}
 
 	/**
-	 * Adds a task's outputs to the all outputs task. Reads the task's archiveFile property and adds it to the {@link #inputFiles}.
+	 * Adds a task's outputs to the all outputs task. Reads the task's archiveFile property and adds it
+	 * to the {@link #inputFiles}.
 	 *
 	 * @param task
-	 *                Task to add.
+	 *            Task to add.
 	 */
 	public void addTask(Task task) {
 		dependsOn(task);
@@ -97,7 +98,7 @@ public abstract class CopyAllOutputsTask extends DefaultTask {
 	 * Copies the {@link #inputFiles} to the {@link #outputsFolder}.
 	 *
 	 * @throws IOException
-	 *                 If an IOException occurs while writing the file.
+	 *             If an IOException occurs while writing the file.
 	 * @see org.gradle.api.Project#copy(org.gradle.api.Action)
 	 */
 	@TaskAction

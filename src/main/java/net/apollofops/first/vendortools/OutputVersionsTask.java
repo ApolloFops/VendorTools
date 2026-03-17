@@ -30,7 +30,7 @@ public abstract class OutputVersionsTask extends DefaultTask {
 	 * Creates a new OutputVersionsTask.
 	 *
 	 * @param objects
-	 *                ObjectFactory used to create properties.
+	 *            ObjectFactory used to create properties.
 	 */
 	@Inject
 	public OutputVersionsTask(ObjectFactory objects) {
@@ -86,7 +86,7 @@ public abstract class OutputVersionsTask extends DefaultTask {
 	 * Writes the {@link #version} to the {@link #versionFile}.
 	 *
 	 * @throws IOException
-	 *                 If an IOException occurs while writing the file.
+	 *             If an IOException occurs while writing the file.
 	 * @see ResourceGroovyMethods#write(java.io.File, String)
 	 */
 	@TaskAction

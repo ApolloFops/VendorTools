@@ -49,7 +49,7 @@ public class VendordepExtension {
 	 * Creates a new VendordepExtension.
 	 *
 	 * @param project
-	 *                The project to apply it to.
+	 *            The project to apply it to.
 	 */
 	@Inject
 	public VendordepExtension(Project project) {
@@ -153,7 +153,8 @@ public class VendordepExtension {
 	}
 
 	/**
-	 * Gets the group ID used by the base name. This is the regular group ID, but with periods replaced with underscores.
+	 * Gets the group ID used by the base name. This is the regular group ID, but with periods replaced
+	 * with underscores.
 	 *
 	 * @return
 	 *         A string provider that provides the group ID.
@@ -166,7 +167,7 @@ public class VendordepExtension {
 	 * Gets the base name to use for the artifacts.
 	 *
 	 * @param artifactClassifier
-	 *                The classifier string to use.
+	 *            The classifier string to use.
 	 * @return
 	 *         A string provider that provides the base name.
 	 */
@@ -175,7 +176,8 @@ public class VendordepExtension {
 	}
 
 	/**
-	 * Gets the repo URL for the plugin based on the {@link #mavenRepoUrl} and {@link #releasesRepoName}.
+	 * Gets the repo URL for the plugin based on the {@link #mavenRepoUrl} and
+	 * {@link #releasesRepoName}.
 	 *
 	 * @return
 	 *         A string provider that provides the repo URL.

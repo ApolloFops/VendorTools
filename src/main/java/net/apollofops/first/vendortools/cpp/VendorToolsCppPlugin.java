@@ -21,7 +21,7 @@ public class VendorToolsCppPlugin implements Plugin<Project> {
 	 * Applies the plugin to the given {@link Project}.
 	 *
 	 * @param project
-	 *                {@link Project} to apply the plugin to.
+	 *            {@link Project} to apply the plugin to.
 	 */
 	@Override
 	public void apply(Project project) {

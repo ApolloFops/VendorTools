@@ -142,7 +142,8 @@ public class VendorToolsCombinerPlugin implements Plugin<Project> {
 					Closure<Boolean> repositoryMatch = new Closure<Boolean>(this) {
 						@Override
 						public Boolean call(Object arguments) {
-							// Return true if this task isn't relevant to this publication or if it is going to the correct repository
+							// Return true if this task isn't relevant to this publication or if it is going to the correct
+							// repository
 							return !publications.contains(task.getPublication()) || task.getRepository() == artifactRepository;
 						}
 					};

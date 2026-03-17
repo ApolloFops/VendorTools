@@ -36,7 +36,7 @@ public abstract class VendordepJsonTask extends DefaultTask {
 	 * Creates a new VendordepJsonTask.
 	 *
 	 * @param objects
-	 *                ObjectFactory used to create properties.
+	 *            ObjectFactory used to create properties.
 	 */
 	@Inject
 	public VendordepJsonTask(ObjectFactory objects) {
@@ -105,7 +105,7 @@ public abstract class VendordepJsonTask extends DefaultTask {
 	 * filling in template values from the {@link #valueMap} in the process.
 	 *
 	 * @throws IOException
-	 *                 If an IOException occurs while writing the file.
+	 *             If an IOException occurs while writing the file.
 	 * @see org.gradle.api.Project#copy(org.gradle.api.Action)
 	 */
 	@TaskAction
