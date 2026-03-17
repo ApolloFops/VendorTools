@@ -7,3 +7,16 @@ github_url: https://github.com/ApolloFops/VendorTools
 
 aux_links:
   Repository: https://github.com/ApolloFops/VendorTools
+
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
