@@ -2,6 +2,8 @@
 
 VendorTools is a set of build scripts designed to make creating WPILib Vendor Dependencies easier. This replaces the [WPILib Vendor Template](https://github.com/wpilibsuite/vendor-template)'s `publish.gradle` script with a Gradle plugin, making it easier to configure and maintain Vendordeps, since you don't have to maintain the build system yourself.
 
+[![Gradle Plugin Portal](https://img.shields.io/gradle-plugin-portal/v/net.apollofops.first.VendorTools?style=flat-square&logo=gradle)](https://plugins.gradle.org/plugin/net.apollofops.first.VendorTools)
+
 ## What works
 
 * Java builds
