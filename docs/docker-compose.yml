@@ -1,0 +1,7 @@
+name: vendortools-jekyll
+services:
+  jekyll-build:
+    build: .
+    volumes:
+      - .:/srv/jekyll
+    command: build
