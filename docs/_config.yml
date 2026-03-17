@@ -2,7 +2,8 @@ title: VendorTools Docs
 description: Documentation for the VendorTools build tools.
 theme: just-the-docs
 
-url: https://apollofops.github.io/VendorTools
+url: https://apollofops.github.io
+baseurl: /VendorTools
 github_url: https://github.com/ApolloFops/VendorTools
 
 aux_links:
